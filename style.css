@@ -1,0 +1,105 @@
+* {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    /* view port height. 1 vh=1% of the height
+    vh refers to the visible portion of the browser -moz-window-dragging
+    height:100% mean 100 percentage of the containing elemnet */
+    position: relative;
+  }
+  .head{
+    margin-top: 150px;
+
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 85%;
+    align-items: center; 
+  }
+  ul li {
+    display: inline;
+    margin: 10px 25px;
+    list-style-type: none;
+  }
+  .link:hover {
+    color: red;
+  }
+  .link {
+    font-size: 21px;
+    font-weight: 800;
+    color: darkgreen;
+    text-decoration: none;
+  }
+  .imageee img{
+    width:100%;
+    height: 50%;
+
+  }
+  .imageee p{
+    margin-bottom:500px;
+  }
+  
+  .centered{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+  }
+  .st_img,.sec{
+padding: 10px;
+justify-content: space-between;
+  }
+ .st_img img{
+    border-radius: 15px;
+    color: darkgreen;
+  }
+  .sec_img img{
+    border-radius: 15px;
+  }
+  .image2{
+display: flex;
+      }
+      .container5{
+        padding: 20px;
+        margin-left: 50px;
+        background-color: antiquewhite;
+      }
+      #contact {
+        margin: 8% 8% 0px 8%;
+      }
+      .icon-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+      }
+      .icon {
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+        border-radius: 50%;
+        display: flex;
+      }
+      .icon i {
+        color: black;
+        font-size: 30px;
+      }
+      .icon:hover {
+        background-image: linear-gradient(to bottom right, yellow, red);
+      }
+      .icon:hover i {
+        color: white;
+        animation: shake 0.75s;
+      }
